@@ -1,0 +1,61 @@
+site_name: '单细胞 RNA-seq 最佳实践系列'
+site_description: '人类肝硬化 GSE136103 单细胞图谱从 GEO 下载到高级分析的完整实战教程。'
+site_author: 'petemeng'
+repo_url: https://github.com/petemeng/scRNA-Tutorial
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - 正文:
+      - 第 1 篇: series/01.md
+      - 第 2 篇: series/02.md
+      - 第 3 篇: series/03.md
+      - 第 4 篇: series/04.md
+      - 第 5 篇: series/05.md
+      - 第 6 篇: series/06.md
+      - 第 7 篇: series/07.md
+      - 第 8 篇: series/08.md
+      - 第 9 篇: series/09.md
+      - 第 10 篇: series/10.md
+      - 第 11 篇: series/11.md
+      - 第 12 篇: series/12.md
+      - 第 13 篇: series/13.md
+  - 图表总览: figures.md
