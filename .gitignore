@@ -1,0 +1,28 @@
+# 忽略数据文件和大型输出
+data/
+results/
+figures/
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.bak

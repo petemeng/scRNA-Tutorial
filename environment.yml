@@ -1,0 +1,36 @@
+name: scrna-tutorial
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - jupyterlab
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - h5py
+  - leidenalg
+  - igraph
+  - louvain
+  - umap-learn
+  - pip:
+    - scanpy>=1.10
+    - anndata>=0.10
+    - harmonypy
+    - celltypist
+    - gseapy>=1.0
+    - "decoupler>=2.0"
+    - pydeseq2
+    - "liana>=1.0"
+    - scrublet
+    # 以下为可选依赖（高级分析章节使用）
+    # - pyscenic          # Ch09: 完整GRN推断（需额外下载motif数据库，约4GB）
+    # - cytotrace2        # Ch11: 发育潜能评分
+    # - scvelo            # Ch11: RNA velocity（需要spliced/unspliced数据）
